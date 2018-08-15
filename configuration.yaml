@@ -1,9 +1,8 @@
 # Name of your Slack (Deprecated in favour of the slack_name env var)
-slack_name: rands-leadership
+slack_name: modcloth
 
 # Name of environment variable that determines if destalinator should
 # actually do things to a live slack. Without this environment variable,
-# everything will output in a "dry run" fashion (debug messages should take place,
 # but no changes or messages should affect a live Slack).
 activated: false
 
@@ -11,7 +10,7 @@ activated: false
 bot_name: "destalinator"
 
 # What should the bot's avatar be when it posts?
-bot_avatar_url: "https://s3-us-west-1.amazonaws.com/eng-management-docs/bread.png"
+bot_avatar_url: "https://mcdevopstest.blob.core.windows.net/images/reaper.png"
 
 # Days of silence before we warn a channel it's going to be archived
 warn_threshold: 30
@@ -38,7 +37,6 @@ ignore_channels:
 # Regular expression patterns for additional channels to ignore during archiving
 ignore_channel_patterns:
   - ^zmeta-
-  - rands
 
 # Users to ignore when considering if a channel is stale
 ignore_users:
